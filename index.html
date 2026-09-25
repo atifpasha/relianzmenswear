@@ -1,11 +1,12 @@
 <!doctype html>
 <!--
-  NOTE: This site does not have a live domain yet. Every URL below uses
-  https://relianzmenswear.com as a PLACEHOLDER. Once the real domain is
-  purchased and the site is deployed, replace every occurrence of
+  NOTE: This site does not have a custom domain yet. It is live at
+  https://relianzmenswear.vercel.app, but every URL below still uses
+  https://relianzmenswear.com as a PLACEHOLDER. Once a real domain is
+  purchased and the site is deployed there, replace every occurrence of
   "https://relianzmenswear.com" in this file (search for that string) with
-  the actual production URL, and update GA_MEASUREMENT_ID with the real
-  Google Analytics 4 measurement ID (see README for setup steps).
+  the actual production URL. Google Analytics 4 (GA4) is already wired up
+  with the real Measurement ID (G-CH2NM8Z820).
 -->
 <html lang="en">
   <head>
@@ -72,13 +73,13 @@
       }
     </script>
 
-    <!-- Google Analytics 4 (GA4) — replace G-XXXXXXXXXX with your real Measurement ID -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <!-- Google Analytics 4 (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CH2NM8Z820"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
+      gtag('config', 'G-CH2NM8Z820');
     </script>
   </head>
   <body>
