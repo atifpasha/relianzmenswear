@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://relianzmenswear.com/sitemap.xml
+Sitemap: https://relianzmenswear.vercel.app/sitemap.xml
